@@ -12,8 +12,9 @@
   },
   "license": "ISC",
   "author": "",
-  "main": "basic.js",
+  "main": "./src",
   "scripts": {
+    "build": "webpack --mode production",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "lint": "eslint ."
@@ -28,6 +29,8 @@
     "eslint-plugin-jest": "^29.15.0",
     "globals": "^17.4.0",
     "jest": "^30.2.0",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.3"
   },
   "dependencies": {
