@@ -8,8 +8,8 @@ test.each([[{name: "мaг", health: 90}, 'healthy'],
     ('for %s returns $s'),
     (health, expected) => {
         const result = healthStatus(health);
-        expect(result).toBe(expected)
+        expect(result).toBe(expected);
     }
-)
+);
 
 
